@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.header img {
+    width: 150px;
+    height: auto;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.body {
+    margin: 20px 0;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.highlight {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.notice {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.offerLetter {
+    margin-top: 20px;
+
+    padding-top: 15px;
+    background: linear-gradient(to top, #cf8e44, #ffe681);
+    color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    background: #f4f4f4;
+    border-radius: 10px;
+    height: auto;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.box1 h2 {
+    color: chocolate;
+    margin: 0;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.but {
+    border-radius: 10px;
+    background: #00A6FB;
+    color: #f4f4f4;
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+
+}
+
+.footer {
+    margin-top: 20px;
+    background: #003554;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.footerLink {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLink ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLink ul li {
+    list-style: none;
+}
+
+ul li i {
+    font-size: 20px;
+    color: black;
+}
